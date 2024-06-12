@@ -1,7 +1,0 @@
-LICENSE
-README.md
-setup.py
-src/ML_MLOps.egg-info/PKG-INFO
-src/ML_MLOps.egg-info/SOURCES.txt
-src/ML_MLOps.egg-info/dependency_links.txt
-src/ML_MLOps.egg-info/top_level.txt
