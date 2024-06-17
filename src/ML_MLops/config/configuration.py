@@ -2,7 +2,8 @@ from ML_MLOps.constants import *
 from ML_MLOps.utils.common import read_yaml, create_directories
 from ML_MLOps.entity.config_entity import (DataIngestionConfig, 
                                            DataValidationConfig, 
-                                           DataTransformationConfig)
+                                           DataTransformationConfig, 
+                                           ModelTrainerConfig)
 
 class ConfigurationManager:
     def __init__(
@@ -57,4 +58,23 @@ class ConfigurationManager:
           )
 
           return data_transformation_config
+    
+    def get_model_trainer_config(self) -> ModelTrainerConfig:
+          config = self.config.model_trainer
+          params = self.params.ElasticNet
+          
+          create_directories([config.root_dir])
+
+          model_trainer_config = ModelTrainerConfig(
+                root_dir = config.root_dir,
+                train_X_path = config.train_X_path,
+                train_y_path = config.train_y_path,
+                test_X_path = config.test_X_path,
+                test_y_path = config.test_y_path,
+                model_name = config.model_name,
+                alpha = params.alpha,
+                l1_ratio = params.l1_ratio
+          )
+
+          return model_trainer_config
     
