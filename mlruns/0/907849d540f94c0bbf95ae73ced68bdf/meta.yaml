@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/lenov/OneDrive/Documents/ML_MLOps/mlruns/0/907849d540f94c0bbf95ae73ced68bdf/artifacts
+end_time: 1718642803595
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 907849d540f94c0bbf95ae73ced68bdf
+run_name: glamorous-ray-462
+run_uuid: 907849d540f94c0bbf95ae73ced68bdf
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1718642790946
+status: 3
+tags: []
+user_id: lenov

@@ -11,3 +11,45 @@
 7. Update the pipeline
 8. Update the main.py
 9. Update the app.py
+
+# How to run?
+
+### STEPS:
+Clone the repository
+
+```bash
+https://github.com/mjdocevedo/ML_MLOps
+```
+
+### SPET 01: Create a conda environment after opening the repository
+
+```bash
+conda create -n ml_mlops_env python=3.11
+```
+
+```bash
+conda activate ml_mlops_env
+```
+
+### STEP 02: Install the requirements
+
+```bash
+pip install -r requirements.txt
+```
+
+```bash
+python app.py
+```
+
+Now, 
+```bash
+open up your local host and port
+```
+
+## MLflow
+
+#### cmd
+- mlflow ui
+
+### DagsHub
+

@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/lenov/OneDrive/Documents/ML_MLOps/mlruns/0/e656c24e997942d897ed0616fc4ce0c8/artifacts
+end_time: 1718642430073
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e656c24e997942d897ed0616fc4ce0c8
+run_name: rebellious-carp-908
+run_uuid: e656c24e997942d897ed0616fc4ce0c8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1718642423071
+status: 3
+tags: []
+user_id: lenov

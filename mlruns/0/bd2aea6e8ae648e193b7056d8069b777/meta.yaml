@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/lenov/OneDrive/Documents/ML_MLOps/mlruns/0/bd2aea6e8ae648e193b7056d8069b777/artifacts
+end_time: 1718642352708
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: bd2aea6e8ae648e193b7056d8069b777
+run_name: bald-ape-713
+run_uuid: bd2aea6e8ae648e193b7056d8069b777
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1718642346942
+status: 3
+tags: []
+user_id: lenov
